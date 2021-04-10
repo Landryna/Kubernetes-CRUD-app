@@ -12,4 +12,3 @@ class ListOfResourcesDto:
 
     def __init__(self, resources):
         self.resources = [resource['metadata']['name'] for resource in resources['items']]
-

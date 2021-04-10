@@ -9,4 +9,3 @@ class HttpStatusCode(Enum):
     NotFound = 404
     UnprocessableEntity = 422
     ServiceUnavailable = 503
-

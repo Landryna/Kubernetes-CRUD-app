@@ -13,4 +13,3 @@ class InvalidResourceManifestException(KubeApiException):
 
 class ResourceAlreadyExistException(KubeApiException):
     pass
-
