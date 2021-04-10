@@ -1,0 +1,23 @@
+registry:
+  image: foo:1.0
+app:
+  name: foo
+service:
+  port: 80
+  targetPort: 5000
+container:
+  port: 5000
+resources:
+  requests:
+    memory: "100Mi"
+    cpu: "100m"
+  limits:
+    memory: "250Mi"
+    cpu: "200m"
+readinessProbe:
+  initialDelaySeconds: 5
+  periodSeconds: 10
+livenessProbe:
+  initialDelaySeconds: 60
+  periodSeconds: 15
+

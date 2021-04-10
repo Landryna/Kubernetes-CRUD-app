@@ -1,0 +1,2 @@
+Application is created for performing CRUD operations on Kubernetes cluster.
+Supported resources for application are: Namespace, Service, Pod
